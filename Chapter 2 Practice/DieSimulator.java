@@ -4,9 +4,9 @@ public class DieSimulator
 {
     public static void main(String[] args)
     {
-       Random generator = new Random();
-       generator = generator.nextInt(1, 7);
-       
-       System.out.println(generator);
+        Random rnd = new Random();
+        rnd.nextInt(7);
+        
+        System.out.println(1);
     }
 }
