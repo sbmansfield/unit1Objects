@@ -1,6 +1,6 @@
 import java.awt.Color;
 
-public class TurtleWorld
+public class TurtleLab
 {
     public static void main(String args[])
     {
@@ -10,9 +10,9 @@ public class TurtleWorld
         turtle1.setPenWidth(1);
         turtle1.penDown();
         turtle1.setPenColor(Color.red);
-        turtle1.forward(100);
+        turtle1.forward(200);
         
-        int x = 100;
+        int x = 200;
         while (x > 0)
         {
           turtle1.turn(180);
@@ -30,9 +30,9 @@ public class TurtleWorld
         turtle2.penDown();
         turtle2.setPenColor(Color.orange);
         turtle2.turn(60);
-        turtle2.forward(100);
+        turtle2.forward(200);
         
-        int x2 = 100;
+        int x2 = 200;
         while (x2 > 0)
         {
           turtle2.turn(180);
@@ -50,9 +50,9 @@ public class TurtleWorld
         turtle3.penDown();
         turtle3.setPenColor(Color.yellow);
         turtle3.turn(120);
-        turtle3.forward(100);
+        turtle3.forward(200);
         
-        int x3 = 100;
+        int x3 = 200;
         while (x3 > 0)
         {
           turtle3.turn(180);
@@ -70,9 +70,9 @@ public class TurtleWorld
         turtle4.penDown();
         turtle4.setPenColor(Color.green);
         turtle4.turn(180);
-        turtle4.forward(100);
+        turtle4.forward(200);
         
-        int x4 = 100;
+        int x4 = 200;
         while (x4 > 0)
         {
           turtle4.turn(180);
@@ -90,9 +90,9 @@ public class TurtleWorld
         turtle5.penDown();
         turtle5.setPenColor(Color.blue);
         turtle5.turn(240);
-        turtle5.forward(100);
+        turtle5.forward(200);
         
-        int x5 = 100;
+        int x5 = 200;
         while (x5 > 0)
         {
           turtle5.turn(180);
@@ -110,9 +110,9 @@ public class TurtleWorld
         turtle6.penDown();
         turtle6.setPenColor(Color.magenta);
         turtle6.turn(300);
-        turtle6.forward(100);
+        turtle6.forward(200);
         
-        int x6 = 100;
+        int x6 = 200;
         while (x6 > 0)
         {
           turtle6.turn(180);
